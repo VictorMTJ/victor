@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<form action="controlador" method="post" enctype="multipart/form-data">
+    <center>
+        <h1>por favor complete el formulario</h1>
+    </center>
+    <center>
+        <h4>complete el formulario de acuerdo a lo requerido.</h4>
+    </center>
+    <h4>EDAD:</h4>
+    <label for="edad">INGRESE SU EDAD:</label>
+    <div><input type="number" step="1" min="0" max="20" value="00" name="edad" autofocus>
+    </div>
+    <H4>NOMBRE:</H4>
+    <label for="nombre">INGRESE SU NOMBRE</label>
+    <div><input type="text" name="number" required placeholder="Ingresar aqui" id="nombre" autofocus autocomplete="off">
+    </div>
+        <h4>COLOR:</h4>
+        <label for="color">SELECCIONE UN COLOR</label> 
+        <input type="color" id="color">
+        
+        <H4>CORREO ELECTRONICO:</H4>
+        <label for="email">ingrese su correo</label>
+        <div>
+        </div>
+        <input type="email" id="email" required>
+    </div>
+    <div>
+        <h4>NUMERO TELEFONICO:</h4>
+        <label for="numero">ingrese su numero</label>
+        <div>
+        </div>
+        <input type="text" id="numero" pattern="[o-9] {0,10}" required>
+    </div>
+    <div>
+        <h4>CIUDAD:</h4>
+        <label for="ciudad">seleccione su ciudad</label>
+        <div>
+        </div>
+        <select name="ciudad" id="ciudad" >
+            <option value="">seleccione</option>
+            <option value="1">Giron</option>
+            <option value="2">Bucaramanga</option>
+            <option value="3">Ocaña</option>
+        </select>
+    </div>
+    <div>
+        <h4>DIRECCION:</h4>
+        <label for="direccion">INGRESE SU DIRECCION (opcional)</label>
+        <div>
+        </div>
+        <input type="direccion" id="direccion">
+    </div>
+    <div>
+        <h4>SEXO:</h4>
+        <label for="genero">SELECCIONE SU GENERO</label>
+        <div>
+        </div>
+        <select name="GENERO" id="GENERO">
+            <option value="">seleccione</option>
+            <option value="1">HOMBRE</option>
+            <option value="2">MUJER</option>
+            <option value="3">OTRO</option>
+        </select>
+        
+    </div>
+    <div>
+        <h4>ESPECIALIZACIONES:</h4>
+        <label for="ESPECIALIZACIONES">SELECCIONE SU ESPECIALIZACION:</label>
+        <div>
+        </div>
+        <label>
+            <input type="checkbox" name=""> HTML
+        </label>
+        <div>
+        </div>
+        <label> 
+            <input type="checkbox"> GIT
+        </label>
+        <div>
+        </div>
+        <label>
+            <input type="checkbox"> CLI
+        </label>
+        <div>
+            <input type="checkbox">PHYTON
+        </div>
+    </div>
+    <div>
+        <h4>ARCHIVO:</h4>
+        <label for="archivo">CARGUE EL ARCHIVO:</label>
+        <div>
+        </div>
+        <input type="file">
+    </div>
+    <div>
+        <br>
+        <button type="submit">guardar</button>
+    </br>
+    </div>
+    
+<body>
+    
+</body>
+</html>
